@@ -1,0 +1,133 @@
+.parent {
+    height: 170px;
+    width: 370px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    
+    background-color: white;
+    
+    position: absolute;;
+    top: 250px;
+    left: 400px;
+    
+    
+}
+.h11{
+    font-size: large;
+    color: orangered;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.h22 {
+    border: 1px solid orangered;
+    border-radius:5px ;
+    margin-left: 60px;
+    height: 30px;
+    width: 250px;
+}
+.h33{
+    background-color: orangered;
+    height: 30px;
+    width: 70px;
+    font-size: large;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    margin-left: 150px;
+    color: white;
+    
+
+}
+.bg-image {
+    background-image: url("web images\images (1).jpg");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+     position:absolute;
+      top: 60px ;
+      left: 250px;
+  
+  
+}
+
+.bg-images{
+    display: none;
+}
+
+
+
+
+
+.h77 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+    
+}
+
+@media(max-width:768px){
+    .bg-image{
+        display: none;
+    }
+    .h77{
+        display: none;
+    }
+    .bg-images{
+        background-image: url("web images\images (1).jpg");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    display: inline;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+
+     
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        width: 190px;
+        justify-content: center;
+        position: absolute;
+        box-sizing: border-box;
+        left: 40px;
+        top: 150px;
+
+    }
+    .h11{
+        position: absolute;
+        justify-content: center;
+        left: -40px;
+        font-size: 15px;
+
+        
+    }
+    .h22{
+        position: absolute;
+        width: 140px;
+        height: 20px;
+        right: 26px;
+        
+    }
+    .h33{
+        position: absolute;
+        bottom: 5px;
+        right: 60px;
+        height: 15px;
+        width: 45px;
+        font-size: 10px;
+    }
+    body{
+        position: relative;
+        justify-content: center;
+    }
+    
+    
+}
+
+
